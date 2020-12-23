@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-hover:hover {
+  background-color: aqua;
+  color: aliceblue;
+  transition-duration: 1s;
+}
+
+.card-hover:hover {
+  transform: translateX(2px) translateY(-4px);
+  transition-duration: 0.3s;
+}
